@@ -1,0 +1,197 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+   "http://www.w3.org/TR/html4/loose.dtd">
+
+   <html>
+
+<head>
+	<title>Assignment 1</title>
+    <meta charset="utf-8"  />
+    <style type="text/css">
+    
+    table {
+        /* border-collapse: collapse; */
+        table-layout: fixed;
+        width: 80%;
+        margin-top: 40px;
+        margin-bottom: 80px;
+        font-size: 22px;
+        empty-cells: show;
+        
+        }
+    table td{
+        border: 2.5px solid black;
+        vertical-align: bottom;
+        }
+    table tr{
+        /* border: 2.5px solid black; */
+        vertical-align: bottom;
+        }
+    table tr:first-child td{
+        border-top: 1px solid black;
+        }
+    table tr:last-child td{
+        border-bottom: 1px solid black;
+        }
+    table tr td:first-child{
+        border-left: 1px solid black;
+        }
+    table tr td:last-child{
+        border-right: 1px solid black;
+        } 
+    
+    </style>
+</head>
+
+<body>
+<div>
+    <table id="1" rules="all" frame="border" align="center">
+        <tbody>
+            <tr>
+                <td align="left" ><b>left</b></td>
+                <td align="center"><b>center</b></td>
+                <td align="right"><b>right</b></td>
+            </tr>
+            <tr>
+                <td align="left"><b>left</b></td>
+                <td align="center"><b>center</b></td>
+                <td align="right"><b>right</b></td>
+            </tr>
+            <tr>
+                <td align="left"><b>left</b></td>
+                <td align="center"><b>center</b></td>
+                <td align="right"><b>right</b></td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+
+<div>
+    <table id="2" rules="all" frame="border" align="center">
+        <tbody>
+            <!-- 1 -->
+            <tr>
+                <td colspan="6" align="center"><b>Heading</b></td>
+            </tr>
+
+
+            <!-- 2 -->
+            <tr>
+                <td colspan="6">&nbsp;</td>
+            </tr>
+
+            <!-- 3 -->
+            <tr>
+                <td rowspan="4">&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+
+            </tr>
+
+            <!-- 4 -->
+            <tr>
+                <td>&nbsp;</td>
+                <td colspan="3" rowspan="2">&nbsp;</td>
+                <td>&nbsp;</td>
+            </tr>
+
+            <!-- 5 -->
+            <tr>
+                <td>&nbsp;</td>
+                <!-- <td colspan="3">&nbsp;</td> -->
+                <td>&nbsp;</td>
+                
+            </tr>
+
+            <!-- 6 -->
+            <tr>
+               
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+            </tr>
+
+            <!-- 7 -->
+            <tr>
+                <td colspan="6">&nbsp;</td>
+               
+            </tr>
+        </tbody>
+        
+    </table>
+</div>
+<div>
+    <table id="3" rules="all" frame="border" align="center">
+        <tbody>
+            <!-- 1 -->
+            <tr>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+            </tr>
+
+
+            <!-- 2 -->
+            <tr>
+                <td rowspan="4">&nbsp;</td>
+                <td style="border-left: 4px solid black; border-right: 4px solid black;">&nbsp;</td>
+                <td rowspan="4">&nbsp;</td>
+            </tr>
+
+            <!-- 3 -->
+        
+            <tr>
+                <td style="border-left: 4px solid black; border-right: 4px solid black;">&nbsp;</td>
+                
+            </tr>
+
+            <!-- 4 -->
+            <tr>
+                <td style="border-left: 4px solid black; border-right: 4px solid black;">&nbsp;</td>
+                
+            </tr>
+
+            <!-- 5 -->
+            <tr>
+                <td style="border-left: 4px solid black; border-bottom: 4px solid black;">&nbsp;</td>
+               
+            </tr>
+        
+
+            <!-- 6 -->
+            <tr >
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+            </tr>
+
+            
+        </tbody>
+        
+    </table>
+</div>
+
+<div>
+    <table id="4" style="table-layout: auto; border-width: 2px; border-color: black;" frame="border" align="center" >
+        <thead ><td colspan="3" height="70px" style="background-color: rgba(26, 73, 7, 0.801);">&nbsp;</td></thead>
+        <tfoot ><td colspan="3" height="70px" style="background-color: rgba(7, 3, 44, 0.932);">&nbsp;</td></tfoot>
+        <tbody style="border-width: 0px;">
+            
+            <tr height="500px" >
+                <td width="20%" style="border: 1.5px solid black;">&nbsp;</td>
+                <td width="60%" style="border: 1.5px solid black;"><img width="95%" height="100%" style="margin-bottom: 10%; margin-top: 0%;" src="./frogpicture.jpg" alt="assignment 2"/></td>
+                <!-- <img src="./frogpicture.jpg"/> -->
+                <td width="20%" style="border: 1.5px solid black;">&nbsp;</td>
+            </tr>
+            
+        </tbody>
+    </table>
+</div>
+    
+
+</body>
+</html>
